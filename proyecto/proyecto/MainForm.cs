@@ -70,12 +70,19 @@ namespace proyecto
             string semestre=cbSemestre.SelectedItem.ToString();
             DateTime fechaNacimiento=dateTimePicker1.Value;
             
+          
+            
             Random random = new Random();
             string h =random.Next(100000, 999999).ToString("D6");
  			
             string rfc = apellido1.Substring(0, 2) + apellido2.Substring(0, 1) + nombre.Substring(0, 1) +
             fechaNacimiento.ToString("yyMMdd")+h.Substring(0,3);
             lblRFC.Text = "RFC: " + rfc;
+            
+            string textToPass = txtNombre.Text + " " + txtA1.Text + " " + txtA2.Text;
+    		string textToPass2 = lblRFC.Text;
+    		Form1 form1 = new Form1(textToPass, textToPass2);
+   			form1.Show();
 			}
 			}			
 					
