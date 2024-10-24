@@ -36,8 +36,8 @@ namespace proyecto
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-			this.lblRFC = new System.Windows.Forms.Label();
 			this.btnListo = new System.Windows.Forms.Button();
 			this.btnLimpiar = new System.Windows.Forms.Button();
 			this.label7 = new System.Windows.Forms.Label();
@@ -54,7 +54,6 @@ namespace proyecto
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// dateTimePicker1
@@ -64,47 +63,44 @@ namespace proyecto
 			this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
 			this.dateTimePicker1.TabIndex = 50;
 			// 
-			// lblRFC
-			// 
-			this.lblRFC.Location = new System.Drawing.Point(303, 184);
-			this.lblRFC.Name = "lblRFC";
-			this.lblRFC.Size = new System.Drawing.Size(200, 23);
-			this.lblRFC.TabIndex = 49;
-			this.lblRFC.Text = "RFC: ";
-			// 
 			// btnListo
 			// 
+			this.btnListo.BackColor = System.Drawing.SystemColors.HighlightText;
 			this.btnListo.Location = new System.Drawing.Point(428, 119);
 			this.btnListo.Name = "btnListo";
 			this.btnListo.Size = new System.Drawing.Size(75, 23);
 			this.btnListo.TabIndex = 48;
 			this.btnListo.Text = "LISTO";
-			this.btnListo.UseVisualStyleBackColor = true;
+			this.btnListo.UseVisualStyleBackColor = false;
 			this.btnListo.Click += new System.EventHandler(this.BtnListoClick);
 			// 
 			// btnLimpiar
 			// 
+			this.btnLimpiar.BackColor = System.Drawing.SystemColors.HighlightText;
 			this.btnLimpiar.Location = new System.Drawing.Point(303, 119);
 			this.btnLimpiar.Name = "btnLimpiar";
 			this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
 			this.btnLimpiar.TabIndex = 47;
 			this.btnLimpiar.Text = "LIMPIAR";
-			this.btnLimpiar.UseVisualStyleBackColor = true;
+			this.btnLimpiar.UseVisualStyleBackColor = false;
 			this.btnLimpiar.Click += new System.EventHandler(this.BtnLimpiarClick);
 			// 
 			// label7
 			// 
+			this.label7.BackColor = System.Drawing.SystemColors.HighlightText;
 			this.label7.Location = new System.Drawing.Point(303, 42);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(162, 23);
+			this.label7.Size = new System.Drawing.Size(200, 23);
 			this.label7.TabIndex = 46;
 			this.label7.Text = "FECHA DE NACIMIENTO";
+			this.label7.Click += new System.EventHandler(this.Label7Click);
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(14, 249);
+			this.label6.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label6.Location = new System.Drawing.Point(14, 246);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(101, 23);
+			this.label6.Size = new System.Drawing.Size(101, 21);
 			this.label6.TabIndex = 45;
 			this.label6.Text = "SEMESTRE";
 			// 
@@ -125,17 +121,19 @@ namespace proyecto
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(13, 207);
+			this.label5.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label5.Location = new System.Drawing.Point(13, 204);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(100, 23);
+			this.label5.Size = new System.Drawing.Size(100, 20);
 			this.label5.TabIndex = 43;
 			this.label5.Text = "DIRECCIÓN";
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(12, 167);
+			this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label4.Location = new System.Drawing.Point(12, 164);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(100, 23);
+			this.label4.Size = new System.Drawing.Size(100, 20);
 			this.label4.TabIndex = 42;
 			this.label4.Text = "TELEFONO";
 			// 
@@ -176,53 +174,49 @@ namespace proyecto
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(12, 127);
+			this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label3.Location = new System.Drawing.Point(12, 122);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(118, 23);
+			this.label3.Size = new System.Drawing.Size(118, 20);
 			this.label3.TabIndex = 36;
 			this.label3.Text = "SEGUNDO APELLIDO";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(12, 85);
+			this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label2.Location = new System.Drawing.Point(12, 81);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(111, 23);
+			this.label2.Size = new System.Drawing.Size(111, 20);
 			this.label2.TabIndex = 35;
 			this.label2.Text = "PRIMER APELLIDO";
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(12, 42);
+			this.label1.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label1.Location = new System.Drawing.Point(12, 40);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(58, 20);
 			this.label1.TabIndex = 34;
 			this.label1.Text = "NOMBRE";
 			// 
 			// label8
 			// 
+			this.label8.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label8.Location = new System.Drawing.Point(14, 9);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(489, 23);
 			this.label8.TabIndex = 51;
 			this.label8.Text = "AGREGA LOS DATOS QUE SE TE SOLICITAN";
 			// 
-			// label9
-			// 
-			this.label9.Location = new System.Drawing.Point(303, 161);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(125, 23);
-			this.label9.TabIndex = 52;
-			this.label9.Text = "AQUI VERAS TU RFC";
-			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(525, 291);
-			this.Controls.Add(this.label9);
 			this.Controls.Add(this.label8);
 			this.Controls.Add(this.dateTimePicker1);
-			this.Controls.Add(this.lblRFC);
 			this.Controls.Add(this.btnListo);
 			this.Controls.Add(this.btnLimpiar);
 			this.Controls.Add(this.label7);
@@ -243,7 +237,6 @@ namespace proyecto
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
@@ -260,7 +253,6 @@ namespace proyecto
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Button btnLimpiar;
 		private System.Windows.Forms.Button btnListo;
-		private System.Windows.Forms.Label lblRFC;
 		private System.Windows.Forms.DateTimePicker dateTimePicker1;
 	}
 }

@@ -30,6 +30,13 @@ namespace proyecto
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+	
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Acerca_de Acerca_de= new Acerca_de();
+			Acerca_de.Show();
 		}
 	}
 }

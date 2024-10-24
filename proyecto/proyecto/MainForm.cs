@@ -85,7 +85,7 @@ namespace proyecto
    			form1.Show();
 			}
 			}			
-					
+			
 		}
 	}
 }
