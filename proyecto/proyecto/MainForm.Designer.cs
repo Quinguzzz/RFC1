@@ -53,18 +53,20 @@ namespace proyecto
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// dateTimePicker1
 			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(303, 53);
+			this.dateTimePicker1.Location = new System.Drawing.Point(303, 81);
 			this.dateTimePicker1.Name = "dateTimePicker1";
 			this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
 			this.dateTimePicker1.TabIndex = 50;
 			// 
 			// lblRFC
 			// 
-			this.lblRFC.Location = new System.Drawing.Point(303, 133);
+			this.lblRFC.Location = new System.Drawing.Point(303, 184);
 			this.lblRFC.Name = "lblRFC";
 			this.lblRFC.Size = new System.Drawing.Size(200, 23);
 			this.lblRFC.TabIndex = 49;
@@ -72,7 +74,7 @@ namespace proyecto
 			// 
 			// btnListo
 			// 
-			this.btnListo.Location = new System.Drawing.Point(428, 91);
+			this.btnListo.Location = new System.Drawing.Point(428, 119);
 			this.btnListo.Name = "btnListo";
 			this.btnListo.Size = new System.Drawing.Size(75, 23);
 			this.btnListo.TabIndex = 48;
@@ -82,7 +84,7 @@ namespace proyecto
 			// 
 			// btnLimpiar
 			// 
-			this.btnLimpiar.Location = new System.Drawing.Point(303, 91);
+			this.btnLimpiar.Location = new System.Drawing.Point(303, 119);
 			this.btnLimpiar.Name = "btnLimpiar";
 			this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
 			this.btnLimpiar.TabIndex = 47;
@@ -92,7 +94,7 @@ namespace proyecto
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(303, 14);
+			this.label7.Location = new System.Drawing.Point(303, 42);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(162, 23);
 			this.label7.TabIndex = 46;
@@ -100,7 +102,7 @@ namespace proyecto
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(14, 221);
+			this.label6.Location = new System.Drawing.Point(14, 249);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(101, 23);
 			this.label6.TabIndex = 45;
@@ -116,14 +118,14 @@ namespace proyecto
 									"4to Semestre",
 									"5to Semestre",
 									"6to Semestre"});
-			this.cbSemestre.Location = new System.Drawing.Point(136, 218);
+			this.cbSemestre.Location = new System.Drawing.Point(136, 246);
 			this.cbSemestre.Name = "cbSemestre";
 			this.cbSemestre.Size = new System.Drawing.Size(132, 21);
 			this.cbSemestre.TabIndex = 44;
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(13, 179);
+			this.label5.Location = new System.Drawing.Point(13, 207);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
 			this.label5.TabIndex = 43;
@@ -131,7 +133,7 @@ namespace proyecto
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(12, 139);
+			this.label4.Location = new System.Drawing.Point(12, 167);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(100, 23);
 			this.label4.TabIndex = 42;
@@ -139,42 +141,42 @@ namespace proyecto
 			// 
 			// txtDireccion
 			// 
-			this.txtDireccion.Location = new System.Drawing.Point(136, 176);
+			this.txtDireccion.Location = new System.Drawing.Point(136, 204);
 			this.txtDireccion.Name = "txtDireccion";
 			this.txtDireccion.Size = new System.Drawing.Size(132, 20);
 			this.txtDireccion.TabIndex = 41;
 			// 
 			// txtTelefono
 			// 
-			this.txtTelefono.Location = new System.Drawing.Point(136, 136);
+			this.txtTelefono.Location = new System.Drawing.Point(136, 164);
 			this.txtTelefono.Name = "txtTelefono";
 			this.txtTelefono.Size = new System.Drawing.Size(131, 20);
 			this.txtTelefono.TabIndex = 40;
 			// 
 			// txtA2
 			// 
-			this.txtA2.Location = new System.Drawing.Point(136, 94);
+			this.txtA2.Location = new System.Drawing.Point(136, 122);
 			this.txtA2.Name = "txtA2";
 			this.txtA2.Size = new System.Drawing.Size(131, 20);
 			this.txtA2.TabIndex = 39;
 			// 
 			// txtA1
 			// 
-			this.txtA1.Location = new System.Drawing.Point(136, 53);
+			this.txtA1.Location = new System.Drawing.Point(136, 81);
 			this.txtA1.Name = "txtA1";
 			this.txtA1.Size = new System.Drawing.Size(131, 20);
 			this.txtA1.TabIndex = 38;
 			// 
 			// txtNombre
 			// 
-			this.txtNombre.Location = new System.Drawing.Point(136, 12);
+			this.txtNombre.Location = new System.Drawing.Point(136, 40);
 			this.txtNombre.Name = "txtNombre";
 			this.txtNombre.Size = new System.Drawing.Size(132, 20);
 			this.txtNombre.TabIndex = 37;
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(12, 99);
+			this.label3.Location = new System.Drawing.Point(12, 127);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(118, 23);
 			this.label3.TabIndex = 36;
@@ -182,7 +184,7 @@ namespace proyecto
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(12, 57);
+			this.label2.Location = new System.Drawing.Point(12, 85);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(111, 23);
 			this.label2.TabIndex = 35;
@@ -190,17 +192,35 @@ namespace proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(12, 14);
+			this.label1.Location = new System.Drawing.Point(12, 42);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 34;
 			this.label1.Text = "NOMBRE";
 			// 
+			// label8
+			// 
+			this.label8.Location = new System.Drawing.Point(14, 9);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(489, 23);
+			this.label8.TabIndex = 51;
+			this.label8.Text = "AGREGA LOS DATOS QUE SE TE SOLICITAN";
+			// 
+			// label9
+			// 
+			this.label9.Location = new System.Drawing.Point(303, 161);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(125, 23);
+			this.label9.TabIndex = 52;
+			this.label9.Text = "AQUI VERAS TU RFC";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(525, 246);
+			this.ClientSize = new System.Drawing.Size(525, 291);
+			this.Controls.Add(this.label9);
+			this.Controls.Add(this.label8);
 			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.lblRFC);
 			this.Controls.Add(this.btnListo);
@@ -223,6 +243,8 @@ namespace proyecto
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
